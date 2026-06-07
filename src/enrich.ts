@@ -1,4 +1,4 @@
-import type { EnrichArgs, EnrichResult } from "@shutterly/sdk";
+import type { EnrichArgs, EnrichResult } from "@neoworks-dev/otter-sdk";
 
 const API_KEY = process.env.TMDB_API_KEY ?? "";
 const LANGUAGE = process.env.TMDB_LANGUAGE ?? "de-DE";
